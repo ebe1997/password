@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Quiz</title>
+  <link rel="icon" type="image/png" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <container id="title-container">
+    <div id="title-bar">
+      <p>JavaScript Quiz</p>
+    </div>
+  </container>
+
+  <container class="timer-container">
+    <h3 class="timer"></h3>
+  </container>
+
+  <container class="score-container">
+    <h3 class="score"></h3>
+  </container>
+
+  <container id="startEndButton"><button type="button" class="btn btn-dark" id="startButton">Start Quiz</button>
+  </container>
+
+  <container id="question-container"></container>
+
+  <container id="answer-container">
+    <ul id="answer-buttons"></ul>
+  </container>
+
+  <container id="leader-board">
+    <h4 id="leaderB-title">Leader Board</h4>
+    <ul id="leaderList"></ul>
+  </container>
+
+  <container id="final-score">
+  </container>
+
+  <container id="initials-form">
+    <form id="initForm">
+      <label for="initials">Enter Initials To Be Added To Leader Board</label>
+      <input type="text" class="form-control" id="initialsInput" placeholder="Initials">
+      <button type="submit" class="btn btn-dark" id="init-submit">Submit</button>
+    </form>
+  </container>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>

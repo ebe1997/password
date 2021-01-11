@@ -1,0 +1,180 @@
+body {
+    background-color: #d4d4d4;
+  }
+  
+  #title-container {
+    display: flex;
+  }
+  
+  #title-bar {
+    background-color: #292929;
+    color: #ffffff;
+    padding: 5px;
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .timer-container {
+    display: flex;
+  }
+  
+  .timer {
+    color: rgb(0, 0, 0);
+    flex-basis: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .score-container {
+    display: flex;
+  }
+  
+  .score {
+    color: rgb(0, 0, 0);
+    flex-basis: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #answer-container {
+    display: flex;
+  }
+  
+  #answer-buttons {
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    margin-top: 1rem;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 1rem;
+  }
+  
+  #question-container {
+    display: flex;
+  }
+  
+  #question {
+    color: black;
+    flex-basis: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+  }
+  
+  #startEndButton {
+    display: flex;
+  }
+  
+  #startButton {
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #292929;
+  }
+  
+  #correct-answer {
+    background-color: green;
+  }
+  
+  #wrong-answer {
+    background-color: darkred;
+  }
+  
+  #timesUpButton {
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkred;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #completedButton {
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #leader-board {
+    display: none;
+  }
+  
+  #leaderB-title {
+    color: #292929;
+    padding: 5px;
+    flex-basis: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  #leaderList {
+    color: #292929;
+    padding: 5px;
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  #initials-form {
+    display: flex;
+  }
+  
+  #initForm {
+    display: none;
+    font-size: large;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  
+  #initialsInput {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  #initSubmit {
+    background-color: #292929;
+  }
+  
+  #final-score {
+    display: flex;
+  }
+  
+  #finalScore {
+    display: none;
+    font-size: xx-large;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
